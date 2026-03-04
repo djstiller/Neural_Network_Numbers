@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "neural-network-numbers"
+version = "1.0.0"
+description = "Feedforward neural network from scratch for MNIST digit classification"
+authors = ["Daniel Stiller"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = ">=1.24"
+matplotlib = ">=3.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
